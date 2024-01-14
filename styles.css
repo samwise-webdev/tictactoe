@@ -7,6 +7,7 @@ section {
 img {
     height: 100px;
     width: 100px;
+    position: absolute;
 }
 
 div {
@@ -15,4 +16,5 @@ div {
     background-color: lightblue;
     flex-direction: row;
     margin: 0;
+    position: relative;
 }
