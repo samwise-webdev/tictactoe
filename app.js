@@ -45,3 +45,8 @@ imgsX.forEach(img => addEventListener('click', () => img.hidden = false));
 const imgsO = document.querySelectorAll('div img.o');
 imgsO.forEach(img => addEventListener('dblclick', () => img.hidden = false));  //so this works to show all the images
 
+// const imgsO = document.querySelectorAll('div img.o');
+// imgsO.forEach(img => addEventListener('dblclick', () => event.target.hidden = !event.target.hidden));  
+
+// const imgsX = document.querySelectorAll('div img.x');
+// imgsX.forEach(img => addEventListener('dblclick', () => event.target.hidden = !event.target.hidden));  //worked when I had event.target.hidden on one but not on both
